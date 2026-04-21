@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs && git add -A && (git diff --cached --quiet || git commit -m \"Rebuild\") && git push"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
+    "@vscode/markdown-it-katex": "^1.1.1",
+    "highlight.js": "^11.10.0",
+    "js-yaml": "^4.1.0"
+  }
+}

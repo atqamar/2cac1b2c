@@ -1,0 +1,1 @@
+{"salt":[78,174,46,179,250,18,146,176,15,49,221,164,154,212,6,16],"iv":[38,67,229,133,137,27,229,129,156,49,126,164],"iterations":600000,"algorithm":"AES-GCM-256+PBKDF2-SHA256","filename":"sigma-research-v1.zip","uncompressed_size":2671539}

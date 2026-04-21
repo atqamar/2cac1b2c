@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+# Local-only content configuration (never committed — contains strategic labels
+# that, once baked into encrypted bundles, are not readable by the public repo).
+content-private.json
